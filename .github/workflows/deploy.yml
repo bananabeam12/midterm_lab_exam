@@ -20,7 +20,7 @@ jobs:
           channel: 'stable'
           
       - run: flutter pub get
-      - run: flutter build web --release --base-href "/ITP107_Midterm_LabExam/"
+      - run: flutter build web --release --base-href "/midterm_lab_exam/"
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
